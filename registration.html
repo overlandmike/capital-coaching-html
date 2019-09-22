@@ -149,16 +149,20 @@
                         <h2>student registration form</h2>
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="name">Name :</label>
-                                <input type="text" name="name" id="name" required/>
+                                <label for="first_name">First Name :</label>
+                                <input type="text" name="first_name" id="first_name" required/>
                             </div>
                             <div class="form-group">
-                                <label for="father_name">Last Name :</label>
-                                <input type="text" name="father_name" id="father_name" required/>
+                                <label for="last_name">Last Name :</label>
+                                <input type="text" name="last_name" id="last_name" required/>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="address">Address :</label>
+                            <label for="address">Address Line 1 :</label>
+                            <input type="text" name="address" id="address" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address Line 2 :</label>
                             <input type="text" name="address" id="address" required/>
                         </div>
                         <div class="form-radio">
@@ -176,64 +180,134 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="state">State :</label>
-                                <div class="form-select">
-                                    <select name="state" id="state">
-                                        <option value=""></option>
-                                        <option value="us">America</option>
-                                        <option value="uk">English</option>
-                                    </select>
-                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
-                                </div>
+                                <label for="state">Phone Number: </label>
+                                <input type="text" name="address" id="address" required/>
                             </div>
                             <div class="form-group">
-                                <label for="city">City :</label>
-                                <div class="form-select">
-                                    <select name="city" id="city">
-                                        <option value=""></option>
-                                        <option value="losangeles">Los Angeles</option>
-                                        <option value="washington">Washington</option>
-                                    </select>
-                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
-                                </div>
+                                <label for="state">Date of Birth: </label>
+                                <input type="text" name="address" id="address" required/>
                             </div>
                         </div>
+
+                        <div class="form-row">
+                        <span>
+                             (NB we ask this question to try to match the children with children of a similar age, and require it also to establish a Tennis NZ Player Code)
+                        </span>
+                        </div>
+
                         <div class="form-group">
-                            <label for="birth_date">Parents Name :</label>
+                            <label for="birth_date">School Attending</label>
                             <input type="text" name="birth_date" id="birth_date">
                         </div>
+
                         <div class="form-group">
-                            <label for="birth_date">Parents Mobile :</label>
-                            <input type="text" name="birth_date" id="birth_date">
+                        <span>
+                            (NB we ask this question purely to ensure that we put children in squads and lessons that they can reach after the end of the school day – eg Wellesley after 4.15pm, Wellington Girls, Sacred Heart, St Marys,  Scots College, Wellington College and St  Marks after 4pm, Marsden after 3.45pm etc).
+                        </span>
                         </div>
-                        <div class="form-group">
-                            <label for="birth_date">Second Parent / Alternative Contact :</label>
-                            <input type="text" name="birth_date" id="birth_date">
-                        </div>
-                        <div class="form-group">
-                            <label for="birth_date">Mobile :</label>
-                            <input type="text" name="birth_date" id="birth_date">
-                        </div>
-                        <div class="form-group">
-                            <label for="pincode">Pincode :</label>
-                            <input type="text" name="pincode" id="pincode">
-                        </div>
-                        <div class="form-group">
-                            <label for="course">Course :</label>
-                            <div class="form-select">
-                                <select name="course" id="course">
-                                    <option value=""></option>
-                                    <option value="computer">Computer Operator & Pragramming Assistant</option>
-                                    <option value="desiger">Designer</option>
-                                    <option value="marketing">Marketing</option>
-                                </select>
-                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">Parents Name: </label>
+                                <input type="text" name="address" id="address" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="state">Phone Number: </label>
+                                <input type="text" name="address" id="address" required/>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email ID :</label>
-                            <input type="email" name="email" id="email" />
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">Secondary Contact :</label>
+                                <input type="text" name="address" id="address" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="state">Phone Number: </label>
+                                <input type="text" name="address" id="address" required/>
+                            </div>
                         </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">Parents Email :</label>
+                                <input type="text" name="address" id="address" required/>
+                            </div>
+                        </div>
+
+                        <div class ="form-row">
+                            <span>Emergency contact (if the parents can’t be reached).</span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">Emergency Contact :</label>
+                                <input type="text" name="address" id="address" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="state">Emergency Contact Number: </label>
+                                <input type="text" name="address" id="address" required/>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">Relationship with the junior: </label>
+                                <input type="text" name="address" id="address" required/>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                        <div class="form-radio">
+                            <label for="q1" class="radio-label">Have you been coached by Capital Coaching before ?</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="q1" id="Yes" checked>
+                                <label for="Yes">Yes</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="q1" id="No">
+                                <label for="No">No</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="form-row">
+                        <div class="form-radio">
+                            <label for="q1" class="radio-label">Have you played interclub before  ?</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="q1" id="Yes" checked>
+                                <label for="Yes">Yes</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="q1" id="No">
+                                <label for="No">No</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="form-row">
+                        <div class="form-radio">
+                            <label for="q1" class="radio-label">Do you have a configure rankings code  ?</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="q1" id="Yes" checked>
+                                <label for="Yes">Yes</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="q1" id="No">
+                                <label for="No">No</label>
+                                <span class="check"></span>
+                            </div>
+
+                        </div>
+
+
+                        </div>
+
+
+
+
+
                         <div class="form-submit">
                             <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
                             <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
